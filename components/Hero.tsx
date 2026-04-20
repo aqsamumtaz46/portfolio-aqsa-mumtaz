@@ -44,11 +44,11 @@ export default function Hero() {
               <p className="text-gray-400 font-medium">YEARS EXPERIENCE</p>
             </div>
             <div className="bg-gray-900/50 border border-gray-800 p-6 rounded-lg hover:border-cyan-500/50 transition">
-              <p className="text-4xl font-bold text-cyan-400 mb-2">5+</p>
+              <p className="text-4xl font-bold text-cyan-400 mb-2">10+</p>
               <p className="text-gray-400 font-medium">CLIENTS SERVED</p>
             </div>
             <div className="bg-gray-900/50 border border-gray-800 p-6 rounded-lg hover:border-cyan-500/50 transition">
-              <p className="text-4xl font-bold text-cyan-400 mb-2">10+</p>
+              <p className="text-4xl font-bold text-cyan-400 mb-2">30+</p>
               <p className="text-gray-400 font-medium">PROJECTS</p>
             </div>
             <div className="bg-gray-900/50 border border-gray-800 p-6 rounded-lg hover:border-cyan-500/50 transition">

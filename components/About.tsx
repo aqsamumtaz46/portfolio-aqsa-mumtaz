@@ -59,7 +59,7 @@ export default function About() {
                 <span className="text-cyan-400 font-bold text-xl">→</span>
                 <div>
                   <p className="font-semibold text-white">Clients Served</p>
-                  <p className="text-gray-400">6+ high-impact projects across industries</p>
+                  <p className="text-gray-400">10+ high-impact projects across industries</p>
                 </div>
               </li>
               <li className="flex items-start gap-3">
@@ -69,21 +69,21 @@ export default function About() {
                   <p className="text-gray-400">80+ SEO-optimized pages & blog articles</p>
                 </div>
               </li>
-                  <p className="font-semibold text-white">Education</p>
-                  <p className="text-gray-400">B.S. Physics, University of Lahore</p>
-                </div>
-              </li>
-              <li className="flex items-start gap-3">
-                <span className="text-cyan-400 font-bold text-xl">→</span>
-                <div>
-                  <p className="font-semibold text-white">Specialization</p>
-                  <p className="text-gray-400">Full-spectrum SEO & Strategic Content</p>
-                </div>
-              </li>
-            </ul>
+              <p className="font-semibold text-white">Education</p>
+              <p className="text-gray-400">B.S. Physics, University of Lahore</p>
           </div>
-        </div>
-      </div>
-    </section>
+        </li>
+        <li className="flex items-start gap-3">
+          <span className="text-cyan-400 font-bold text-xl">→</span>
+          <div>
+            <p className="font-semibold text-white">Specialization</p>
+            <p className="text-gray-400">Full-spectrum SEO & Strategic Content</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+        </div >
+      </div >
+    </section >
   );
 }
