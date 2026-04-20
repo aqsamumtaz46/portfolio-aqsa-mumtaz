@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { projects } from "@/data/portfolio";
 
 export default function Projects() {
@@ -35,6 +36,17 @@ export default function Projects() {
                 </div>
               </div>
               <p className="text-gray-300 mb-4">{project.description}</p>
+
+              {project.image && (
+                <div className="mb-4 relative w-full h-40 rounded-lg overflow-hidden border border-gray-700">
+                  <Image
+                    src={project.image}
+                    alt={`${project.name} performance metrics`}
+                    fill
+                    className="object-cover hover:scale-105 transition duration-300"
+                  />
+                </div>
+              )}
 
               <div className="mb-4">
                 <p className="text-sm font-semibold text-gray-400 mb-2">KEY ACHIEVEMENTS:</p>
