@@ -5,13 +5,5 @@
     "framework": "nextjs",
     "regions": [
         "sfo1"
-    ],
-    "env": [
-        {
-            "key": "NEXT_PUBLIC_SITE_URL",
-            "value": "",
-            "type": "secret",
-            "description": "Your portfolio website URL"
-        }
     ]
 }
