@@ -13,7 +13,7 @@ export default function About() {
             </p>
 
             <p className="text-lg text-gray-300 mb-6 leading-relaxed">
-              I deliver results through <span className="font-semibold text-cyan-400">comprehensive SEO strategies, E-E-A-T optimization, and content marketing</span>. My track record includes scaling one client from 41.1 → 8.3 ranking position, growing another's clicks 16 → 2,210/month (+13,706%), and building 30+ high-quality backlinks.
+              I deliver results through <span className="font-semibold text-cyan-400">comprehensive SEO strategies, E-E-A-T optimization, and content marketing</span>. My track record includes scaling one client from 41.1 → 8.3 ranking position, growing another's clicks 1200 → 2,210/month (+40%), and building 30+ high-quality backlinks.
             </p>
 
             <p className="text-lg text-gray-300 mb-8 leading-relaxed">
@@ -52,7 +52,7 @@ export default function About() {
                 <span className="text-cyan-400 font-bold text-xl">→</span>
                 <div>
                   <p className="font-semibold text-white">Track Record</p>
-                  <p className="text-gray-400">411,000+ impressions | 13,706% CTR growth</p>
+                  <p className="text-gray-400">411,000+ impressions | 40% CTR growth</p>
                 </div>
               </li>
               <li className="flex items-start gap-3">

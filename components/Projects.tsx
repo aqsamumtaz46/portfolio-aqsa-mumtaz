@@ -9,7 +9,31 @@ export default function Projects() {
         <div className="grid md:grid-cols-2 gap-8">
           {projects.map((project, index) => (
             <div key={index} className="bg-gray-900 border border-gray-800 p-6 rounded-lg hover:border-cyan-500/50 transition">
-              <h3 className="text-xl font-bold mb-2 text-white">{project.name}</h3>
+              <div className="flex justify-between items-start mb-2">
+                <h3 className="text-xl font-bold text-white">{project.name}</h3>
+                <div className="flex gap-2">
+                  {project.caseStudyLink && (
+                    <a
+                      href={project.caseStudyLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="px-3 py-1 text-xs bg-cyan-500/20 text-cyan-400 rounded border border-cyan-500/50 hover:bg-cyan-500/30 transition"
+                    >
+                      Case Study
+                    </a>
+                  )}
+                  {project.websiteLink && (
+                    <a
+                      href={project.websiteLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="px-3 py-1 text-xs bg-cyan-500/20 text-cyan-400 rounded border border-cyan-500/50 hover:bg-cyan-500/30 transition"
+                    >
+                      Visit Site
+                    </a>
+                  )}
+                </div>
+              </div>
               <p className="text-gray-300 mb-4">{project.description}</p>
 
               <div className="mb-4">

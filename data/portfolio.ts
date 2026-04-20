@@ -12,6 +12,8 @@ export interface Project {
   description: string;
   achievements: string[];
   tools?: string[];
+  caseStudyLink?: string;
+  websiteLink?: string;
 }
 
 export interface Skill {
@@ -61,7 +63,9 @@ export const projects: Project[] = [
       "Authored 20+ SEO-optimized product and blog pages targeting commercial keywords",
       "Led end-to-end SEO strategy including on-page, off-page, and technical optimization"
     ],
-    tools: ["Semrush", "Ahrefs", "Google Search Console", "Shopify", "Screaming Frog"]
+    tools: ["Semrush", "Ahrefs", "Google Search Console", "Shopify", "Screaming Frog"],
+    caseStudyLink: "https://drive.google.com/drive/u/0/folders/1NPR6lO8PJpkCNMxM7fuWxwWKjTkXKycB",
+    websiteLink: "https://wildlandblades.com"
   },
   {
     name: "Diabetes Telecare",
@@ -73,7 +77,9 @@ export const projects: Project[] = [
       "Achieved peak CTR of 13.1% demonstrating high content-query relevance",
       "Produced 50+ long-form SEO blog posts on diabetes management topics"
     ],
-    tools: ["Semrush", "Google Analytics", "Google Search Console", "WordPress"]
+    tools: ["Semrush", "Google Analytics", "Google Search Console", "WordPress"],
+    caseStudyLink: "https://drive.google.com/drive/u/0/folders/1wF3bY8wXEJdXQ4zfxlxxS-0ATeYPOlzd",
+    websiteLink: "https://diabetestelecare.com"
   },
   {
     name: "GenZed",
@@ -84,7 +90,8 @@ export const projects: Project[] = [
       "Improved Google rankings for target service-page keywords through structured internal linking",
       "Implemented schema optimization and improved domain authority for competitive UK keywords"
     ],
-    tools: ["Ahrefs", "Google Search Console", "Semrush", "Schema Markup"]
+    tools: ["Ahrefs", "Google Search Console", "Semrush", "Schema Markup"],
+    websiteLink: "https://genzed.co.uk"
   },
   {
     name: "Cleaning Diaries",
@@ -105,7 +112,9 @@ export const projects: Project[] = [
       "Implemented on-page SEO best practices including schema markup and canonical tags",
       "Improved search rankings and generated inbound leads for agency's digital presence",
       "Optimized URL structures and improved overall technical SEO implementation"
-    ]
+    ],
+    caseStudyLink: "https://drive.google.com/drive/u/0/folders/1J0FPy6aA4cLh-3Q7jJRkWy7hT1SomJx4",
+    websiteLink: "https://growthmarvels.com"
   },
   {
     name: "Fastline Legal Services",
