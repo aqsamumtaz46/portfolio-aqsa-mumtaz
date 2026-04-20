@@ -67,7 +67,7 @@ export const projects: Project[] = [
     tools: ["Semrush", "Ahrefs", "Google Search Console", "Shopify", "Screaming Frog"],
     caseStudyLink: "https://drive.google.com/drive/u/0/folders/1NPR6lO8PJpkCNMxM7fuWxwWKjTkXKycB",
     websiteLink: "https://wildlandblades.com",
-    image: "/images/wildland-blades-metrics.png"
+    image: "/images/wildland-blades-metrics.jpeg"
   },
   {
     name: "Diabetes Telecare",
@@ -82,7 +82,7 @@ export const projects: Project[] = [
     tools: ["Semrush", "Google Analytics", "Google Search Console", "WordPress"],
     caseStudyLink: "https://drive.google.com/drive/u/0/folders/1wF3bY8wXEJdXQ4zfxlxxS-0ATeYPOlzd",
     websiteLink: "https://diabetestelecare.com",
-    image: "/images/diabetes-telecare-metrics.png"
+    image: "/images/diabetes-telecare-metrics.jpeg"
   },
   {
     name: "GenZed",

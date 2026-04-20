@@ -38,13 +38,15 @@ export default function Projects() {
               <p className="text-gray-300 mb-4">{project.description}</p>
 
               {project.image && (
-                <div className="mb-4 relative w-full h-40 rounded-lg overflow-hidden border border-gray-700">
-                  <Image
-                    src={project.image}
-                    alt={`${project.name} performance metrics`}
-                    fill
-                    className="object-cover hover:scale-105 transition duration-300"
-                  />
+                <div className="mb-4 relative w-full h-auto rounded-lg border border-gray-700 bg-gray-800 p-4">
+                  <div className="relative w-full" style={{ aspectRatio: '16/9' }}>
+                    <Image
+                      src={project.image}
+                      alt={`${project.name} performance metrics`}
+                      fill
+                      className="object-contain"
+                    />
+                  </div>
                 </div>
               )}
 
