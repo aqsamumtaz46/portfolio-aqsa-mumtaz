@@ -9,15 +9,15 @@ export default function About() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
             <p className="text-lg text-gray-300 mb-6 leading-relaxed">
-              I'm a <span className="font-semibold text-cyan-400">SEO Executive and Content Writer</span> with over 3 years of experience in creating high-quality, SEO-optimized content that drives measurable results.
+              I'm a <span className="font-semibold text-cyan-400">SEO Executive & Content Writer</span> with 3+ years of proven expertise in scaling organic growth and building high-authority digital presence. I specialize in turning data-driven insights into measurable business outcomes.
             </p>
 
             <p className="text-lg text-gray-300 mb-6 leading-relaxed">
-              My expertise spans across <span className="font-semibold text-cyan-400">on-page and off-page SEO techniques</span>, keyword research, and technical optimization. I've successfully worked with 5+ clients to boost their digital presence and achieve top Google rankings.
+              I deliver results through <span className="font-semibold text-cyan-400">comprehensive SEO strategies, E-E-A-T optimization, and content marketing</span>. My track record includes scaling one client from 41.1 → 8.3 ranking position, growing another's clicks 16 → 2,210/month (+13,706%), and building 30+ high-quality backlinks.
             </p>
 
             <p className="text-lg text-gray-300 mb-8 leading-relaxed">
-              My SEO strategies have resulted in consistent organic traffic growth and improved search visibility. I'm passionate about creating content that not only ranks well but also engages and converts readers.
+              I combine technical SEO expertise with strategic content creation to drive sustainable organic growth. Every project I execute is backed by data analysis, competitor research, and a commitment to delivering measurable ROI for my clients.
             </p>
 
             <div className="flex gap-4">
@@ -45,19 +45,30 @@ export default function About() {
                 <span className="text-cyan-400 font-bold text-xl">→</span>
                 <div>
                   <p className="font-semibold text-white">Experience</p>
-                  <p className="text-gray-400">3+ years in SEO and Content Writing</p>
+                  <p className="text-gray-400">3+ years of proven SEO & Content expertise</p>
+                </div>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="text-cyan-400 font-bold text-xl">→</span>
+                <div>
+                  <p className="font-semibold text-white">Track Record</p>
+                  <p className="text-gray-400">411,000+ impressions | 13,706% CTR growth</p>
                 </div>
               </li>
               <li className="flex items-start gap-3">
                 <span className="text-cyan-400 font-bold text-xl">→</span>
                 <div>
                   <p className="font-semibold text-white">Clients Served</p>
-                  <p className="text-gray-400">5+ successful projects across diverse industries</p>
+                  <p className="text-gray-400">6+ high-impact projects across industries</p>
                 </div>
               </li>
               <li className="flex items-start gap-3">
                 <span className="text-cyan-400 font-bold text-xl">→</span>
                 <div>
+                  <p className="font-semibold text-white">Content Created</p>
+                  <p className="text-gray-400">80+ SEO-optimized pages & blog articles</p>
+                </div>
+              </li>
                   <p className="font-semibold text-white">Education</p>
                   <p className="text-gray-400">B.S. Physics, University of Lahore</p>
                 </div>

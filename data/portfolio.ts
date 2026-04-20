@@ -27,9 +27,11 @@ export const experience: Experience[] = [
     duration: "September 2025 – Present",
     tools: ["Semrush", "Ahrefs", "Google Search Console", "Google Analytics", "Screaming Frog", "Trello", "Slack"],
     description: [
-      "Handled full-spectrum SEO (on-page, off-page, technical) for Wildland Blades e-commerce store",
-      "Produced all website content including blogs, product pages, and category descriptions",
-      "Optimized Shopify-based store for improved search rankings and organic traffic"
+      "Led end-to-end SEO strategy (on-page, off-page, technical) for Shopify e-commerce store, producing all website content including product pages, category descriptions, and blogs",
+      "Scaled organic impressions to 171,000+ over 3 months with 624 total clicks and average search position of 8.3",
+      "Improved average ranking position from 41.1 → 8.3, demonstrating strong SERP visibility improvement",
+      "Drove CTR improvement through metadata optimization and structured content, achieving 2.8% CTR on high-intent queries",
+      "Authored 20+ SEO-optimized product and blog pages targeting commercial and informational keywords"
     ]
   },
   {
@@ -39,10 +41,11 @@ export const experience: Experience[] = [
     duration: "April 2023 – August 2025",
     tools: ["Trello", "Slack", "Semrush", "Google Search Console", "Google Analytics", "Ahrefs", "MozBar", "MS Excel"],
     description: [
-      "Implemented on-page and off-page SEO strategies for multiple projects",
-      "Created and optimized SEO-rich blog content for diverse industries",
-      "Built quality backlinks through guest posting and directory submissions",
-      "Improved search rankings across healthcare, finance, legal, and e-commerce sectors"
+      "Grew organic clicks from 16/month to 2,210+/month through consistent SEO content strategy and optimization",
+      "Scaled total impressions from 122 → 411,000+, reflecting strong keyword ranking growth across health niche",
+      "Maintained average search position of 10.1 → 12.9 as keyword portfolio expanded, with peak CTR of 13.1%",
+      "Built 30+ quality backlinks through guest posting and niche directory submissions for competitive keywords",
+      "Executed on-page SEO audits and content optimization across 15+ service pages"
     ]
   }
 ];
@@ -50,84 +53,92 @@ export const experience: Experience[] = [
 export const projects: Project[] = [
   {
     name: "Wildland Blades",
-    description: "Shopify-based e-commerce store specializing in knives and blades",
+    description: "Shopify-based e-commerce store specializing in knives and blades - Full-spectrum SEO strategy execution",
     achievements: [
-      "Handled full-spectrum SEO including on-page, off-page, and technical optimization",
-      "Produced all website content including blogs, product pages, and category descriptions",
-      "Improved search visibility and organic traffic through comprehensive SEO strategy"
+      "Scaled organic impressions to 171,000+ over 3 months with 624 total clicks",
+      "Improved average ranking position from 41.1 → 8.3 for target keywords",
+      "Achieved 2.8% CTR on high-intent queries within first 7 days of optimization",
+      "Authored 20+ SEO-optimized product and blog pages targeting commercial keywords",
+      "Led end-to-end SEO strategy including on-page, off-page, and technical optimization"
     ],
-    tools: ["Semrush", "Ahrefs", "Google Search Console", "Shopify"]
+    tools: ["Semrush", "Ahrefs", "Google Search Console", "Shopify", "Screaming Frog"]
   },
   {
     name: "Diabetes Telecare",
     description: "Health-focused website offering expert insights, blogs, and resources on diabetes management",
     achievements: [
-      "Wrote SEO-optimized blog content covering diabetes management topics",
-      "Executed on-page and off-page SEO to achieve Google rankings",
-      "Generated consistent organic traffic through quality content strategy"
+      "Grew organic clicks from 16/month to 2,210+/month through consistent SEO strategy",
+      "Scaled total impressions from 122 → 411,000+ representing strong keyword ranking growth",
+      "Maintained average search position of 10.1 → 12.9 as keyword portfolio expanded",
+      "Achieved peak CTR of 13.1% demonstrating high content-query relevance",
+      "Produced 50+ long-form SEO blog posts on diabetes management topics"
     ],
-    tools: ["Semrush", "Google Analytics", "WordPress"]
+    tools: ["Semrush", "Google Analytics", "Google Search Console", "WordPress"]
   },
   {
     name: "GenZed",
-    description: "UK-based bookkeeping and accounting service provider for Gen Z entrepreneurs",
+    description: "UK-based bookkeeping and accounting service provider for Gen Z entrepreneurs and small businesses",
     achievements: [
-      "Performed on-page SEO optimization and improved existing blog content",
-      "Built quality backlinks through guest posting and directory submissions",
-      "Enhanced Google rankings for financial services keywords"
+      "Executed on-page SEO audit and content optimization across 15+ existing service pages",
+      "Built 30+ quality backlinks through guest posting and niche directory submissions",
+      "Improved Google rankings for target service-page keywords through structured internal linking",
+      "Implemented schema optimization and improved domain authority for competitive UK keywords"
     ],
-    tools: ["Ahrefs", "Google Search Console", "Semrush"]
+    tools: ["Ahrefs", "Google Search Console", "Semrush", "Schema Markup"]
   },
   {
     name: "Cleaning Diaries",
-    description: "Informative blog platform focused on car cleaning, detailing techniques, and product recommendations",
+    description: "Informational blog platform focused on car cleaning, detailing techniques, and product recommendations",
     achievements: [
-      "Created and optimized SEO blog posts on car detailing techniques",
-      "Implemented proper keyword usage, meta tags, and internal linking",
-      "Improved search visibility for automotive care-related queries"
+      "Published 25+ SEO-optimized blog posts on car detailing targeting long-tail keywords",
+      "Established consistent content calendar and topical cluster strategy",
+      "Built topic authority in the car care niche through strategic content planning",
+      "Implemented full on-page optimization including meta tags, headers, and internal links"
     ],
-    tools: ["Semrush", "Google Analytics", "WordPress"]
+    tools: ["Semrush", "Google Analytics", "WordPress", "Keyword Planner"]
   },
   {
     name: "Growth Marvels",
-    description: "Digital marketing agency offering SEO, content marketing, and branding services",
+    description: "Digital marketing agency offering SEO, content marketing, and branding services to U.S. audience",
     achievements: [
-      "Wrote SEO-optimized service pages, blogs, and case studies",
-      "Implemented on-page SEO to improve search rankings",
-      "Attracted potential clients through content-driven strategy"
+      "Authored 20+ SEO-optimized service pages, blogs, and case studies",
+      "Implemented on-page SEO best practices including schema markup and canonical tags",
+      "Improved search rankings and generated inbound leads for agency's digital presence",
+      "Optimized URL structures and improved overall technical SEO implementation"
     ]
   },
   {
     name: "Fastline Legal Services",
     description: "Professional legal consultancy firm providing expert advice across various legal domains",
     achievements: [
-      "Developed clear, SEO-friendly service pages and FAQs",
-      "Created informative blogs to simplify legal topics",
-      "Improved user trust and engagement through quality content"
+      "Developed 15+ SEO-friendly service pages, FAQs, and blog posts simplifying complex legal topics",
+      "Applied E-E-A-T content principles to build trust signals for legal content pages",
+      "Improved user engagement and dwell time through quality legal content creation",
+      "Enhanced Google's quality assessment of legal content through expertise-focused writing"
     ]
   }
 ];
 
 export const skills: Skill[] = [
   {
-    category: "SEO & Optimization",
-    items: ["On-Page SEO", "Off-Page SEO", "Technical SEO", "Keyword Research", "Link Building", "Local SEO"]
+    category: "SEO Expertise",
+    items: ["On-Page SEO", "Off-Page SEO", "Technical SEO", "Keyword Research & Mapping", "SEO Audits", "Guest Posting", "Link Building", "Content Strategy", "Topic Cluster Planning", "Meta Optimization", "Schema Markup", "Internal Linking"]
   },
   {
-    category: "Content & Writing",
-    items: ["SEO Content Writing", "Blog Writing", "Web Content Writing", "Articles", "Product Descriptions", "Meta Tags & Descriptions"]
+    category: "Content Creation",
+    items: ["SEO Blog Writing", "Product Page Copywriting", "Service Page Writing", "Web Content", "Case Studies", "FAQ Writing", "Content Calendars", "Blog Optimization", "E-E-A-T Principles"]
   },
   {
     category: "Tools & Platforms",
-    items: ["Semrush", "Ahrefs", "MozBar", "Google Search Console", "Google Analytics", "Screaming Frog", "WordPress", "Shopify"]
+    items: ["Semrush", "Ahrefs", "Google Search Console", "Google Analytics", "Screaming Frog", "MozBar", "MS Excel", "Trello", "Slack", "Shopify"]
   },
   {
-    category: "Project Management",
-    items: ["Trello", "Slack", "Content Calendars", "MS Excel", "Documentation", "Team Collaboration"]
+    category: "Data & Reporting",
+    items: ["Data-Driven Reporting", "Performance Analytics", "Keyword Tracking", "SERP Monitoring", "CTR Optimization", "Conversion Tracking"]
   },
   {
-    category: "Professional Skills",
-    items: ["Guest Posting", "Backlink Building", "Competitive Analysis", "Agile Methodology", "Problem-Solving", "Teamwork"]
+    category: "Soft Skills",
+    items: ["Agile Workflow", "Project Management", "Cross-functional Collaboration", "Documentation", "Problem-Solving", "Strategic Planning"]
   }
 ];
 
