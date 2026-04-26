@@ -28,7 +28,7 @@ export default function Skills() {
             <p className="text-lg text-gray-300">Years of Experience</p>
           </div>
           <div className="bg-gradient-to-br from-cyan-500/20 to-cyan-500/5 border border-cyan-500/30 text-white p-8 rounded-lg text-center hover:border-cyan-400/50 transition">
-            <p className="text-4xl font-bold text-cyan-400 mb-2">5+</p>
+            <p className="text-4xl font-bold text-cyan-400 mb-2">10+</p>
             <p className="text-lg text-gray-300">Successful Clients</p>
           </div>
           <div className="bg-gradient-to-br from-cyan-500/20 to-cyan-500/5 border border-cyan-500/30 text-white p-8 rounded-lg text-center hover:border-cyan-400/50 transition">

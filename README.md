@@ -164,7 +164,6 @@ MIT License - Feel free to use this template for your own portfolio
 For questions or suggestions:
 - **Email**: aqsamumtaz531@gmail.com
 - **LinkedIn**: [linkedin.com/in/aqsa-mumtaz-a77254244](https://www.linkedin.com/in/aqsa-mumtaz-a77254244)
-- **Phone**: +92 322 413 9643
 
 ---
 

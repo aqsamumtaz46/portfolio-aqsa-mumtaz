@@ -156,6 +156,5 @@ export const skills: Skill[] = [
 
 export const socialLinks = {
   linkedin: "https://www.linkedin.com/in/aqsa-mumtaz-a77254244",
-  email: "aqsamumtaz531@gmail.com",
-  phone: "+92 322 413 9643"
+  email: "aqsamumtaz531@gmail.com"
 };

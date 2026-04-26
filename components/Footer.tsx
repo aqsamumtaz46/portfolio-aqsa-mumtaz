@@ -57,11 +57,6 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href={`tel:${socialLinks.phone.replace(/\s/g, "")}`} className="hover:text-cyan-400 transition">
-                  {socialLinks.phone}
-                </a>
-              </li>
-              <li>
                 <a href={socialLinks.linkedin} target="_blank" rel="noopener noreferrer" className="hover:text-cyan-400 transition">
                   LinkedIn Profile
                 </a>

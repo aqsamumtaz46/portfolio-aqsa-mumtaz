@@ -9,19 +9,12 @@ export default function Contact() {
           I'd love to hear from you! Whether you have a project in mind or just want to connect, feel free to reach out.
         </p>
 
-        <div className="grid md:grid-cols-3 gap-6 mb-12">
+        <div className="grid md:grid-cols-2 gap-6 mb-12 max-w-3xl mx-auto">
           {/* Email */}
           <a href={`mailto:${socialLinks.email}`} className="bg-gray-900 border border-gray-800 p-8 rounded-lg hover:border-cyan-500/50 transition">
             <div className="text-4xl mb-3">✉️</div>
             <h3 className="font-bold text-lg mb-2 text-white">Email</h3>
             <p className="text-cyan-400 hover:text-cyan-300 break-all">{socialLinks.email}</p>
-          </a>
-
-          {/* Phone */}
-          <a href={`tel:${socialLinks.phone.replace(/\s/g, "")}`} className="bg-gray-900 border border-gray-800 p-8 rounded-lg hover:border-cyan-500/50 transition">
-            <div className="text-4xl mb-3">📱</div>
-            <h3 className="font-bold text-lg mb-2 text-white">Phone</h3>
-            <p className="text-cyan-400 hover:text-cyan-300">{socialLinks.phone}</p>
           </a>
 
           {/* LinkedIn */}
@@ -32,7 +25,7 @@ export default function Contact() {
           </a>
         </div>
 
-        {/* Contact Form */}
+        {/* Contact Form
         <div className="bg-gray-900 border border-gray-800 p-8 rounded-lg max-w-2xl mx-auto">
           <h3 className="text-2xl font-bold mb-6 text-white">SEND A MESSAGE</h3>
           <form className="space-y-4">
@@ -90,6 +83,7 @@ export default function Contact() {
             Note: This form is for demonstration. Please use email or phone to reach out directly.
           </p>
         </div>
+        */}
       </div>
     </section>
   );

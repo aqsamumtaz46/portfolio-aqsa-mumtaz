@@ -20,7 +20,7 @@ export default function About() {
               I combine technical SEO expertise with strategic content creation to drive sustainable organic growth. Every project I execute is backed by data analysis, competitor research, and a commitment to delivering measurable ROI for my clients.
             </p>
 
-            <div className="flex gap-4">
+            <div className="flex gap-4 flex-wrap">
               <a
                 href={`mailto:${socialLinks.email}`}
                 className="px-6 py-3 bg-cyan-500 text-black rounded-lg hover:bg-cyan-400 transition font-bold"
@@ -34,6 +34,14 @@ export default function About() {
                 className="px-6 py-3 border-2 border-cyan-500 text-cyan-400 rounded-lg hover:bg-cyan-500/10 transition font-bold"
               >
                 LinkedIn Profile
+              </a>
+              <a
+                href="/CV/Aqsa_Mumtaz_ SEO Executive & Content Writer.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-6 py-3 border-2 border-cyan-500 text-cyan-400 rounded-lg hover:bg-cyan-500/10 transition font-bold"
+              >
+                View CV
               </a>
             </div>
           </div>

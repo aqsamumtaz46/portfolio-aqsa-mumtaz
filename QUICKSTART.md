@@ -42,8 +42,7 @@ export const skills: Skill[] = [
 // Update contact information
 export const socialLinks = {
   linkedin: "Your LinkedIn URL",
-  email: "your.email@example.com",
-  phone: "Your phone number"
+  email: "your.email@example.com"
 };
 ```
 
